@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+import daisyui from "daisyui"; // Importando o plugin corretamente
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,8 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customBlue: "#004F9F",
+        customLightBlue: "#0983dc", //precisa ser gradient
+      },
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(to bottom, #004F9F, #0D99F7)",
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui], // Usando o plugin importado
 } satisfies Config;
