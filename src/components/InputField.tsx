@@ -17,7 +17,7 @@ export default function InputField({
       <input
         type={type}
         placeholder={placeholder}
-        className="w-full px-4 py-2 rounded-md border border-gray-300 bg-gray-100 focus:outline-none focus:ring-2 focus:ring-customBlueEnd"
+        className="w-full px-4 py-2 rounded-md border border-gray-300 bg-gray-100 "
       />
     </div>
   );

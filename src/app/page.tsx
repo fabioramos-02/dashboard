@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="h-screen flex flex-col items-center justify-between bg-custom-gradient text-white">
-      <div className="flex flex-col items-center mt-10">
+      <div>
         <Header />
       </div>
       <div className="flex flex-col items-center flex-grow">

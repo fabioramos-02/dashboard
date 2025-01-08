@@ -5,7 +5,7 @@ import InputField from "./InputField";
 
 export default function LoginForm() {
   return (
-    <form className=" p-6 rounded-md shadow-md w-full max-w-sm text-white">
+    <form className=" p-6 rounded-md w-full max-w-sm text-white">
     <p className="text-lg text-center">Portal do Servidor</p>
 
       <InputField
