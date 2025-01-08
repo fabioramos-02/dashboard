@@ -6,8 +6,8 @@ import Image from "next/image";
 export default async function Page() {
   const session = await getServerSession();
 
-  // Ver os dados da sessão
-  console.log(session);
+//   Ver os dados da sessão
+//   console.log(session);
 
   // Redirecionar para a página inicial se o usuário não estiver autenticado
   if (!session) {
